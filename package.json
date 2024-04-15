@@ -1,0 +1,27 @@
+{
+  "name": "signature",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/ngrok": "^4.1.3",
+    "@react-native-community/checkbox": "^0.5.17",
+    "expo": "~50.0.14",
+    "expo-asset": "~9.0.2",
+    "expo-status-bar": "~1.11.1",
+    "react": "18.2.0",
+    "react-native": "0.73.6",
+    "react-native-pdf": "^6.7.4",
+    "react-native-signature-canvas": "^4.7.2",
+    "react-native-webview": "13.6.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
